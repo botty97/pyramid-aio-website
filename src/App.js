@@ -8,6 +8,7 @@ import {
   Header,
   WhatPyramid,
 } from "./containers";
+import "./App.css";
 
 const App = () => {
   return (
