@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/default-monochrome-white.svg";
+import logo from "../../assets/logo.png";
 import "./navbar.css";
 
 const Menu = () => {
@@ -19,7 +19,7 @@ const Menu = () => {
         <a href="#features">Success</a>
       </p>
       <p>
-        <a href="#blog">Library</a>
+        <a href="#blog">FAQ</a>
       </p>
     </>
   );
