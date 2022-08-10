@@ -15,7 +15,15 @@ const WhatPyramid = () => {
         <h1 className="gradient__text">
           The possibilities are beyond your imagination
         </h1>
-        <p>Join The Discord</p>
+        <p>
+          <a
+            href="https://discord.gg/UMnjVYjV"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Join The Discord
+          </a>
+        </p>
       </div>
       <div className="pyramid__whatpyramid-container">
         <Feature
