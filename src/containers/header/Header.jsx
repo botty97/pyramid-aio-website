@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         <div className="pyramid__header-content__people">
           <img src={people} alt="people" />
-          <p>1600 people requested access in the last 24 hours.</p>
+          <p>1600 people registered their interest in the last 24 hours.</p>
         </div>
       </div>
       <div className="pyramid__header-image">
