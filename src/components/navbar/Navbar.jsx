@@ -38,9 +38,9 @@ const Navbar = () => {
           <Menu />
         </div>
       </div>
-      <div className="pyramid__navbar-sign">
+      {/* <div className="pyramid__navbar-sign">
         <button type="button">Dashboard</button>
-      </div>
+      </div> */}
       <div className="pyramid__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
