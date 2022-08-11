@@ -2,7 +2,7 @@ import React from "react";
 import { Brand, CTA, Navbar } from "./components";
 import {
   Footer,
-  Blog,
+  Faq,
   Possibility,
   Features,
   Header,
@@ -22,7 +22,7 @@ const App = () => {
       <Features />
       <Possibility />
       <CTA />
-      <Blog />
+      <Faq />
       <Footer />
     </div>
   );
