@@ -10,16 +10,16 @@ const Menu = () => {
         <a href="#home">Home</a>
       </p>
       <p>
+        <a href="#brand">Supported Sites</a>
+      </p>
+      <p>
         <a href="#wpyramid">What is Pyramid</a>
       </p>
       <p>
-        <a href="#possibility">Supported Sites</a>
+        <a href="#faq">FAQ</a>
       </p>
       <p>
         <a href="#features">Success</a>
-      </p>
-      <p>
-        <a href="#blog">FAQ</a>
       </p>
     </>
   );
