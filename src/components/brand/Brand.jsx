@@ -4,7 +4,7 @@ import { palace, supreme, shopify } from "./import.js";
 
 const Brand = () => {
   return (
-    <div className="pyramid__brand section__padding">
+    <div className="pyramid__brand section__padding" id="brand">
       <div>
         <img src={supreme} alt="supreme" />
       </div>
