@@ -9,11 +9,7 @@ const App = () => {
   if (maintenance) {
     return (
       <div className="App">
-        <div className="gradient__bg">
-          {/* <Navbar /> */}
-          <Maintenance />
-        </div>
-        {/* <Footer /> */}
+        <Maintenance />
       </div>
     );
   } else {
