@@ -19,14 +19,14 @@ const Header = () => {
           <input type="email" placeholder="Your Email Address" />
           <button type="button">Register Interest</button>
         </div>
-        <div className="pyramid__header-content__people">
+        {/* <div className="pyramid__header-content__people">
           <img src={people} alt="people" />
           <p>1600 people registered their interest in the last 24 hours.</p>
-        </div>
+        </div> */}
       </div>
-      <div className="pyramid__header-image">
+      {/* <div className="pyramid__header-image">
         <img src={ai} alt="ai" />
-      </div>
+      </div> */}
     </div>
   );
 };

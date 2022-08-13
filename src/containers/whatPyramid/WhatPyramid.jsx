@@ -13,7 +13,7 @@ const WhatPyramid = () => {
       </div>
       <div className="pyramid__whatpyramid-heading">
         <h1 className="gradient__text">
-          The possibilities are beyond your imagination
+          Enter now to experience constant success
         </h1>
         <p>
           <a
