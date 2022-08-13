@@ -6,10 +6,8 @@ const Footer = () => (
     <div className="pyramid__footer-links">
       <div className="pyramid__footer-links_div">
         <h4>Links</h4>
-        <p>Privacy Policy</p>
-        <p>Terms of Service</p>
-        <p>Counters</p>
-        <p>Contact</p>
+        <p className="pyramid__footer-links_clickable">Privacy Policy</p>
+        <p className="pyramid__footer-links_clickable">Terms of Service</p>
       </div>
       <div className="pyramid__footer-links_div">
         <h4>Credit and Debit Cards Accepted</h4>
@@ -19,9 +17,25 @@ const Footer = () => (
       </div>
       <div className="pyramid__footer-links_div">
         <h4>Contact</h4>
-        <p>Twitter</p>
-        <p>Instagram</p>
-        <p>Email</p>
+        <p className="pyramid__footer-links_clickable">
+          <a
+            href="https://twitter.com/pyramidaio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Twitter
+          </a>
+        </p>
+        <p className="pyramid__footer-links_clickable">
+          <a
+            href="https://instagram.com/pyramidaio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Instagram
+          </a>
+        </p>
+        <p className="pyramid__footer-links_clickable">Email</p>
       </div>
     </div>
 
