@@ -52,6 +52,9 @@
   color: #fff;
 
   margin: 0.5rem 0;
+}
+
+.pyramid__footer-links_clickable {
   cursor: pointer;
 }
 
