@@ -1,0 +1,48 @@
+.pyramid__maintenance {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.pyramid__maintenance-logo {
+  align-self: center;
+}
+
+.pyramid__maintenance-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.pyramid__maintenance h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  font-family: var(--font-family);
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: -0.04rem;
+}
+
+.pyramid__maintenance h4 {
+  color: white;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  line-height: 2rem;
+  font-family: var(--font-family);
+}
+
+.pyramid__maintenance p {
+  font-family: var(--font-family);
+  color: white;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.pyramid__maintenance-links {
+  cursor: pointer;
+}

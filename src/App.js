@@ -1,22 +1,36 @@
 import React from "react";
-import { Brand, Navbar } from "./components";
+import { Brand, Navbar, Maintenance } from "./components";
 import { Footer, Faq, Features, Header, WhatPyramid } from "./containers";
 import "./App.css";
 
+const maintenance = true;
+
 const App = () => {
-  return (
-    <div className="App">
-      <div className="gradient__bg">
-        <Navbar />
-        <Header />
+  if (maintenance) {
+    return (
+      <div className="App">
+        <div className="gradient__bg">
+          {/* <Navbar /> */}
+          <Maintenance />
+        </div>
+        {/* <Footer /> */}
       </div>
-      <Brand />
-      <WhatPyramid />
-      <Features />
-      <Faq />
-      <Footer />
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className="App">
+        <div className="gradient__bg">
+          <Navbar />
+          <Header />
+        </div>
+        <Brand />
+        <WhatPyramid />
+        <Features />
+        <Faq />
+        <Footer />
+      </div>
+    );
+  }
 };
 
 export default App;
