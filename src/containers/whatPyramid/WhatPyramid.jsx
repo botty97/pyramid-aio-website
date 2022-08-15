@@ -29,15 +29,15 @@ const WhatPyramid = () => {
       <div className="pyramid__whatpyramid-container">
         <Feature
           title="Community"
-          text="THIS IS DUMMY TEXT TO EXPLAIN WHAT PYRAMID IS WILL BE DONE LATER"
+          text="Strong community with staff members who do their all to provide users with guidance and information on upcoming releases, with members also getting involved with helping eachother."
         />
         <Feature
-          title="Evolving"
-          text="THIS IS DUMMY TEXT TO EXPLAIN WHAT PYRAMID IS WILL BE DONE LATER"
+          title="Constant updates"
+          text="Software constantly improving as time goes on, we aim to continue to support and evolve the software to work on more sites and to be even better on the current supported websites."
         />
         <Feature
-          title="Reliable"
-          text="THIS IS DUMMY TEXT TO EXPLAIN WHAT PYRAMID IS WILL BE DONE LATER"
+          title="Support"
+          text="We have a dedicated support team who are available 24hours a day regardless of timezone, our dedicated ticket system means your issue will be picked up by the staff member who is best situated to assist you. With release information and bot guidance released on a weekly basis."
         />
       </div>
     </div>
