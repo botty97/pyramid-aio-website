@@ -19,6 +19,11 @@
   line-height: 75px;
   letter-spacing: -0.04em;
 }
+.pyramid__header-content__input form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 
 .pyramid__header-content p {
   font-family: var(--font-family);

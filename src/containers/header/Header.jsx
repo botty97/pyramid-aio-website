@@ -16,8 +16,10 @@ const Header = () => {
           it covered.
         </p>
         <div className="pyramid__header-content__input">
-          <input type="email" placeholder="Your Email Address" />
-          <button type="button">Register Interest</button>
+          <form method="POST" action="/testingAPI">
+            <input type="email" placeholder="Your Email Address" name="email" />
+            <button>Register Interest</button>
+          </form>
         </div>
         {/* <div className="pyramid__header-content__people">
           <img src={people} alt="people" />
