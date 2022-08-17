@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
-import people from "../../assets/people.png";
-import ai from "../../assets/ai.png";
+import axios from "axios";
 
 const Header = () => {
+  const [input, setInput] = useState({
+    email: "",
+  });
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+
+    setInput((prevInput) => {
+      return {
+        ...prevInput,
+        [name]: value,
+      };
+    });
+  };
+
+  const handleClick = (event) => {
+    event.preventDefault();
+    const newEmail = {
+      email: input.email,
+    };
+
+    axios.post("http://localhost:3001/create", newEmail);
+  };
+
   return (
     <div className="pyramid__header section__padding" id="home">
       <div className="pyramid__header-content">
@@ -16,9 +39,15 @@ const Header = () => {
           it covered.
         </p>
         <div className="pyramid__header-content__input">
-          <form method="POST" action="/testingAPI">
-            <input type="email" placeholder="Your Email Address" name="email" />
-            <button>Register Interest</button>
+          <form method="POST" action="http://localhost:3000">
+            <input
+              type="email"
+              onChange={handleChange}
+              value={input.email}
+              placeholder="Your Email Address"
+              name="email"
+            />
+            <button onClick={handleClick}>Register Interest</button>
           </form>
         </div>
         {/* <div className="pyramid__header-content__people">
