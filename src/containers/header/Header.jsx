@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import axios from "axios";
+import CLI from "../../assets/CLI.svg";
 
 const Header = () => {
   const [input, setInput] = useState({
@@ -30,6 +31,7 @@ const Header = () => {
   return (
     <div className="pyramid__header section__padding" id="home">
       <div className="pyramid__header-content">
+        <h1 className="vibrate-1">PyramidAIO.</h1>
         <h1 className="gradient__text">
           Supreme and Palace releases have never been easier.
         </h1>
@@ -55,9 +57,9 @@ const Header = () => {
           <p>1600 people registered their interest in the last 24 hours.</p>
         </div> */}
       </div>
-      {/* <div className="pyramid__header-image">
-        <img src={ai} alt="ai" />
-      </div> */}
+      <div className="pyramid__header-image heartbeat">
+        <img src={CLI} alt="CLI" />
+      </div>
     </div>
   );
 };
