@@ -11,9 +11,9 @@ const Header = () => {
   const handleChange = (event) => {
     const { name, value } = event.target;
 
-    setInput((prevInput) => {
+    setInput(({ input }) => {
       return {
-        ...prevInput,
+        ...input,
         [name]: value,
       };
     });
@@ -26,6 +26,10 @@ const Header = () => {
     };
 
     axios.post("http://localhost:3001/create", newEmail);
+
+    setInput({
+      email: "",
+    });
   };
 
   return (
