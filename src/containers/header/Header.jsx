@@ -8,6 +8,9 @@ const Header = () => {
     email: "",
   });
 
+  const [buttonText, setButtonText] = useState("Register Interest");
+  const [placeholderText, setPlaceHolderText] = useState("Enter Email address");
+
   const handleChange = (event) => {
     const { name, value } = event.target;
 
@@ -27,6 +30,8 @@ const Header = () => {
 
     axios.post("http://localhost:3001/create", newEmail);
 
+    setButtonText("Success");
+    setPlaceHolderText("Emailed Submitted");
     setInput({
       email: "",
     });
@@ -50,10 +55,10 @@ const Header = () => {
               type="email"
               onChange={handleChange}
               value={input.email}
-              placeholder="Your Email Address"
+              placeholder={placeholderText}
               name="email"
             />
-            <button onClick={handleClick}>Register Interest</button>
+            <button onClick={handleClick}>{buttonText}</button>
           </form>
         </div>
         {/* <div className="pyramid__header-content__people">
