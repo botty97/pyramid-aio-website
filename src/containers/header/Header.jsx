@@ -8,6 +8,9 @@ const Header = () => {
     email: "",
   });
 
+  const isValid =
+    input.email != null && input.email.length > 5 && input.email.includes("@");
+
   const [buttonText, setButtonText] = useState("Register Interest");
   const [placeholderText, setPlaceHolderText] = useState("Enter Email address");
 
@@ -58,7 +61,10 @@ const Header = () => {
               placeholder={placeholderText}
               name="email"
             />
-            <button onClick={handleClick}>{buttonText}</button>
+
+            <button disabled={!isValid} onClick={handleClick}>
+              {buttonText}
+            </button>
           </form>
         </div>
         {/* <div className="pyramid__header-content__people">
