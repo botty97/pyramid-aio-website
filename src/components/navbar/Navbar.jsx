@@ -18,9 +18,9 @@ const Menu = () => {
       <p>
         <a href="#faq">FAQ</a>
       </p>
-      <p>
+      {/* <p>
         <a href="#features">Features</a>
-      </p>
+      </p> */}
     </>
   );
 };
