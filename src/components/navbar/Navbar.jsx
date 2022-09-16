@@ -59,9 +59,9 @@ const Navbar = () => {
           <div className="pyramid__navbar-menu_container scale-up-center">
             <div className="pyramid__navbar-menu_container-links">
               <Menu />
-              <div className="pyramid__navbar-menu_container-links-sign ">
+              {/* <div className="pyramid__navbar-menu_container-links-sign ">
                 <button type="button">Dashboard</button>
-              </div>
+              </div> */}
             </div>
           </div>
         )}
