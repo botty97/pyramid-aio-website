@@ -123,6 +123,7 @@
 
   .pyramid__navbar-menu_container {
     top: 20px;
+    z-index: 1;
   }
 
   .pyramid__navbar-menu_container-links-sign {
