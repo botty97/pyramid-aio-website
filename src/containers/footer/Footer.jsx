@@ -13,7 +13,7 @@ const Footer = () => (
         <h4>Credit and Debit Cards Accepted</h4>
         <p>VISA </p>
         <p>Mastercard</p>
-        <p>American Expresss</p>
+        <p>American Express</p>
       </div>
       <div className="pyramid__footer-links_div">
         <h4>Contact</h4>
@@ -28,7 +28,7 @@ const Footer = () => (
         </p>
         <p className="pyramid__footer-links_clickable">
           <a
-            href="https://instagram.com/pyramidaio"
+            href="https://instagram.com/pyramidbots"
             target="_blank"
             rel="noreferrer"
           >
