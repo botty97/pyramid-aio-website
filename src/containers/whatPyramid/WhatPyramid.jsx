@@ -18,7 +18,7 @@ const WhatPyramid = () => {
         </h1>
         <p>
           <a
-            href="https://discord.gg/UMnjVYjV"
+            href="https://discord.com/testingpyramid"
             target="_blank"
             rel="noreferrer"
           >
