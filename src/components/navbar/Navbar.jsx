@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import PopUp from "../popup/PopUp";
 import logo from "../../assets/logo.png";
 import "./navbar.css";
 
@@ -26,6 +27,12 @@ const Menu = () => {
 };
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
+  const togglePop = () => {
+    setOpen(true);
+  };
+
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
@@ -38,9 +45,17 @@ const Navbar = () => {
           <Menu />
         </div>
       </div>
-      {/* <div className="pyramid__navbar-sign">
-        <button type="button">Dashboard</button>
-      </div> */}
+      <div className="pyramid__navbar-sign">
+        <button
+          type="button"
+          onClick={() => {
+            togglePop();
+          }}
+        >
+          Dashboard
+        </button>
+        {open ? <PopUp toggle={togglePop} /> : null}
+      </div>
       <div className="pyramid__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
