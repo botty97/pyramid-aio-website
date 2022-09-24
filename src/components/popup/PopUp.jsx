@@ -1,11 +1,9 @@
 import { React } from "react";
 import "./popup.css";
 
-function PopUp(props) {
-  console.log(props);
-
+const PopUp = (props) => {
   const handleClick = () => {
-    props.toggle(false);
+    props.toggle();
   };
 
   return (
@@ -24,6 +22,6 @@ function PopUp(props) {
       </div>
     </div>
   );
-}
+};
 
 export default PopUp;
