@@ -10,14 +10,14 @@ const PopUp = (props) => {
     <div className="pyramid__popup-container__popup">
       <div className="pyramid__popup-container__popup-text">
         <form>
-          <h3>Sign in!</h3>
-          <input type="text" name="name" placeholder="name" />
+          <h3 className="gradient__text">Sign in!</h3>
+          <input type="email" name="email" placeholder="email" />
           <input type="text" name="password" placeholder="password" />
           <br />
           <input type="submit" />
         </form>
         <button className="close" onClick={() => handleClick()}>
-          Close popup
+          X
         </button>
       </div>
     </div>
