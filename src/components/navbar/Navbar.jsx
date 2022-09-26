@@ -27,7 +27,7 @@ const Menu = () => {
 };
 
 const Navbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const togglePop = () => {
     setOpen(!open);
