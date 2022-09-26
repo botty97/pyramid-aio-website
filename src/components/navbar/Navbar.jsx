@@ -27,7 +27,7 @@ const Menu = () => {
 };
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   const togglePop = () => {
     setOpen(!open);
@@ -74,9 +74,18 @@ const Navbar = () => {
           <div className="pyramid__navbar-menu_container scale-up-center">
             <div className="pyramid__navbar-menu_container-links">
               <Menu />
-              {/* <div className="pyramid__navbar-menu_container-links-sign ">
+              <div className="pyramid__navbar-menu_container-links-sign ">
                 <button type="button">Dashboard</button>
-              </div> */}
+                {/* <button
+                  type="button"
+                  onClick={() => {
+                    togglePop();
+                  }}
+                >
+                  Dashboard
+                </button>
+                {open ? <PopUp toggle={togglePop} /> : null} */}
+              </div>
             </div>
           </div>
         )}
