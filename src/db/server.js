@@ -10,6 +10,12 @@ app.use(express.json());
 
 mongoose.connect(process.env.DB_CONNECTION);
 
+app.get("/healthcheck", (req, res) => {
+  res.send({
+    message: "Backend is up and running. Connected successfully.",
+  });
+});
+
 app.use("/", require("../routes/emailRoute"));
 
 app.listen(3001, () => {
