@@ -31,7 +31,7 @@ const Header = () => {
       email: input.email,
     };
 
-    axios.post("http://localhost:3001/create", newEmail);
+    axios.post(process.env.EMAIL_URL, newEmail);
 
     setButtonText("Success");
     setPlaceHolderText("Emailed Submitted");
