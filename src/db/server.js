@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect(process.env.DB_CONNECTION);
+mongoose.connect('mongodb+srv://connor:testingfun@cluster0.nfbl0.mongodb.net/pyramidAIO');
 
 app.get("/healthcheck", (req, res) => {
   res.send({
