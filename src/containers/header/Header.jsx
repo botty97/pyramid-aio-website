@@ -31,7 +31,10 @@ const Header = () => {
       email: input.email,
     };
 
-    axios.post(process.env.EMAIL_URL, newEmail);
+    const URL = process.env.EMAIL_URL || "https://pyramidaio.herokuapp.com/create"
+
+
+    axios.post(URL, newEmail);
 
     setButtonText("Success");
     setPlaceHolderText("Emailed Submitted");
