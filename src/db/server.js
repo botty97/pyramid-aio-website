@@ -21,5 +21,5 @@ app.get("/healthcheck", (req, res) => {
 app.use("/", require("../routes/emailRoute"));
 
 app.listen(process.env.PORT || 3001, () => {
-  console.log("The backend is now up and running on PORT 3001");
+  console.log(`The backend is now up and running on PORT ${process.env.PORT || 3001}`);
 });
