@@ -8,7 +8,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://connor:testingfun@cluster0.nfbl0.mongodb.net/pyramidAIO');
+const connection = process.env.DB_CONNECTION ? process.env.DB_CONNECTION : process.env.MONGODB_URI
+
+mongoose.connect(connection);
 
 app.get("/healthcheck", (req, res) => {
   res.send({
@@ -18,6 +20,6 @@ app.get("/healthcheck", (req, res) => {
 
 app.use("/", require("../routes/emailRoute"));
 
-app.listen(3001, () => {
+app.listen(process.env.PORT || 3001, () => {
   console.log("The backend is now up and running on PORT 3001");
 });
