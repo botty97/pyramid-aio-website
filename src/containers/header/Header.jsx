@@ -31,8 +31,9 @@ const Header = () => {
       email: input.email,
     };
 
-    const URL = process.env.EMAIL_URL || "https://pyramidaio.herokuapp.com/create"
-
+    const URL =
+      process.env.EMAIL_URL ||
+      "https://pyramid-aio-website-production.up.railway.app/create";
 
     axios.post(URL, newEmail);
 
