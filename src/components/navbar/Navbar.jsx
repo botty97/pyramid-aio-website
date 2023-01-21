@@ -75,7 +75,7 @@ const Navbar = () => {
             <div className="pyramid__navbar-menu_container-links">
               <Menu />
               <div className="pyramid__navbar-menu_container-links-sign ">
-                <button type="button">Dashboard</button>
+                {/* <button type="button">Dashboard</button> */}
                 {/* <button
                   type="button"
                   onClick={() => {
