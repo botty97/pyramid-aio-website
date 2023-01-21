@@ -15,11 +15,11 @@ const Faq = () => (
         />
         <Article
           text="Is it lifetime or a monthly renewal?"
-          answers="There will be a renewal fee of £20 per month for Pyramid AIO Raffles."
+          answers="There will be a renewal fee of £15 per month for Pyramid AIO Raffles after the beta period."
         />
         <Article
           text="What sites are supported?"
-          answers="End, DSM & naked are supported. With many more being added in the near future"
+          answers="End, DSM & NakedCPH are supported. With many more being added in the near future."
         />
         <Article
           text="When is release?"
