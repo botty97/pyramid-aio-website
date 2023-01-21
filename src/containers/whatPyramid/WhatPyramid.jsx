@@ -8,7 +8,7 @@ const WhatPyramid = () => {
       <div className="pyramid__whatpyramid-feature">
         <Feature
           title="What is Pyramid"
-          text="Pyramid is an up and coming bot to make users life easier. The intention behind the bot is to increase success for raffle entries, as most releases have switched to raffles we want to make the odds ever greater. We want our users to be the to successfully, and never have any worries with releases. This is a CLI bot with future intentions to make a frontend GUI for a better user experience."
+          text="Pyramid is an up and coming bot to make users life easier. The intention behind the bot is to increase success for raffle entries, as most releases have switched to raffles we want to make the odds ever greater. We want our users to cop successfully, and never have any worries with releases. This is a CLI bot with future intentions to make a frontend GUI for a better user experience."
         />
       </div>
       <div className="pyramid__whatpyramid-heading">
