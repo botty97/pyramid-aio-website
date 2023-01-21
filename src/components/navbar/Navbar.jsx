@@ -46,14 +46,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className="pyramid__navbar-sign">
-        <button
+        {/* <button
           type="button"
           onClick={() => {
             togglePop();
           }}
         >
           Dashboard
-        </button>
+        </button> */}
         {open ? <PopUp toggle={togglePop} /> : null}
       </div>
       <div className="pyramid__navbar-menu">
