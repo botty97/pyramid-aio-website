@@ -1,18 +1,18 @@
 import React from "react";
 import "./brand.css";
-import { palace, supreme, shopify } from "./import.js";
+import { dsm, end, nakedcph } from "./import.js";
 
 const Brand = () => {
   return (
     <div className="pyramid__brand section__padding" id="brand">
       <div>
-        <img src={supreme} alt="supreme" />
+        <img src={end} alt="supreme" />
       </div>
       <div>
-        <img src={palace} alt="palace" />
+        <img src={dsm} alt="palace" />
       </div>
       <div>
-        <img src={shopify} alt="shopify" />
+        <img src={nakedcph} alt="shopify" />
       </div>
     </div>
   );
