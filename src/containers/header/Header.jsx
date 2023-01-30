@@ -49,12 +49,12 @@ const Header = () => {
       <div className="pyramid__header-content">
         <h1 className="vibrate-1">PyramidAIO.</h1>
         <h1 className="gradient__text">
-          Supreme and Palace releases have never been easier.
+          Sneaker Raffles have never been easier.
         </h1>
         <p>
           A new and upcoming software developed with a passion to make your life
-          easier with releases. No more frantic clicking and typing, we've got
-          it covered.
+          easier with raffles, automating the process of entering boring raffles
+          over and over again.
         </p>
         <div className="pyramid__header-content__input">
           <form method="POST" action="http://localhost:3000">

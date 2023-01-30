@@ -46,14 +46,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className="pyramid__navbar-sign">
-        <button
+        {/* <button
           type="button"
           onClick={() => {
             togglePop();
           }}
         >
           Dashboard
-        </button>
+        </button> */}
         {open ? <PopUp toggle={togglePop} /> : null}
       </div>
       <div className="pyramid__navbar-menu">
@@ -75,7 +75,7 @@ const Navbar = () => {
             <div className="pyramid__navbar-menu_container-links">
               <Menu />
               <div className="pyramid__navbar-menu_container-links-sign ">
-                <button type="button">Dashboard</button>
+                {/* <button type="button">Dashboard</button> */}
                 {/* <button
                   type="button"
                   onClick={() => {
