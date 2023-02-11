@@ -19,7 +19,7 @@ const Faq = () => (
         />
         <Article
           text="What sites are supported?"
-          answers="End, DSM & NakedCPH are supported. With many more being added in the near future."
+          answers="End, DSM, NakedCPH, FootPatrol instore & AFEW are supported. With more being added in the future."
         />
         <Article
           text="When is release?"
