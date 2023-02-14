@@ -1,6 +1,6 @@
 import React from "react";
 import "./brand.css";
-import { dsm, end, nakedcph, footpatrol, afew } from "./import.js";
+import { dsm, end, nakedcph, footpatrol } from "./import.js";
 
 const Brand = () => {
   return (
@@ -16,9 +16,6 @@ const Brand = () => {
       </div>
       <div>
         <img src={footpatrol} alt="footpatrol" />
-      </div>
-      <div>
-        <img src={afew} alt="afew" />
       </div>
     </div>
   );
