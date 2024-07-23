@@ -3,7 +3,7 @@ import { Brand, Navbar, Maintenance } from "./components";
 import { Footer, Faq, Features, Header, WhatPyramid } from "./containers";
 import "./App.css";
 
-const maintenance = false;
+const maintenance = true;
 
 const App = () => {
   if (maintenance) {
